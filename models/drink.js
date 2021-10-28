@@ -5,7 +5,7 @@ const DrinkModel = new mongoose.Schema({
     name: { type: String, required: true },
     description: { type: String, required: true },
     priority: { type: String, required: true },
-    deadline: { type: Number, required: true },
+    deadline: { type: String, required: true },
     status: { type: String, required: true },
     criationDate: { type: Date, default: Date.now()},
 });
